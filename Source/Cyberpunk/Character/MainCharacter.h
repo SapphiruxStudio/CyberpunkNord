@@ -93,9 +93,10 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Inputs")
 	void Interact(const FInputActionValue& Value);
 
+	/*
 	void Sprint(const FInputActionValue& Value);
 	void StopSprint(const FInputActionValue& Value);
-
+	*/
 
 
 public:

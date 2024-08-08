@@ -120,8 +120,8 @@ void AMainCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompo
 
 		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Started, this, &AMainCharacter::Interact);
 		
-		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Started, this, &AMainCharacter::Sprint);
-		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Completed, this, &AMainCharacter::StopSprint);
+		//EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Started, this, &AMainCharacter::Sprint);
+		//EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Completed, this, &AMainCharacter::StopSprint);
 	}
 }
 
@@ -168,8 +168,8 @@ void AMainCharacter::Interact(const FInputActionValue& Value)
 {
 	
 }
-
-void AMainCharacter::Sprint(const FInputActionValue& Value)
+/*
+* void AMainCharacter::Sprint(const FInputActionValue& Value)
 {
 	GetCharacterMovement()->MaxWalkSpeed = RunSpeed;
 }
@@ -179,6 +179,8 @@ void AMainCharacter::StopSprint(const FInputActionValue& Value)
 	
 	GetCharacterMovement()->MaxWalkSpeed = WalkSpeed;
 }
+*/
+
 
 
 

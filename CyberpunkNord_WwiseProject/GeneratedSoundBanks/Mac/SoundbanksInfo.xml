@@ -618,7 +618,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2932040671" Type="Event" GUID="{E52D56F4-051C-4C12-BA36-EF160694673A}" Language="SFX" Hash="{F74B755F-027D-251F-68BE-789E439A74EB}">
+		<SoundBank Id="2932040671" Type="Event" GUID="{E52D56F4-051C-4C12-BA36-EF160694673A}" Language="SFX" Hash="{44B9ABF4-3834-A4DD-2C48-4F7D5E2DFA3B}">
 			<ObjectPath>Play_Music</ObjectPath>
 			<ShortName>Play_Music</ShortName>
 			<Path>Event/Play_Music.bnk</Path>
@@ -997,5 +997,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2E4F32D6-AED1-311E-5E3C-7D25C8E298C7}</FileHash>
+	<FileHash>{01B135F1-2523-40FB-AEE4-F37DDDC6B4C9}</FileHash>
 </SoundBanksInfo>
